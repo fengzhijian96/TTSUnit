@@ -1,17 +1,23 @@
-# TTSUnit
 
+```java
 allprojects {
-		repositories {
+    	repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  dependencies {
-	        implementation 'com.github.kimfengzj:TTSUnit:Tag'
+```
+
+
+```java
+dependencies {
+            implementation 'com.github.kimfengzj:TTSUnit:Tag'
 	}
+```
+
+
+```java
+TTSUtil ttsUtil = new TTSUtil(getApplicationContext());
   
-  
-  TTSUtil ttsUtil = new TTSUtil(getApplicationContext());
-  
-  ttsUtil.setTextTOSpeech("你好啊");
+ttsUtil.setTextTOSpeech("你好啊");
+```
