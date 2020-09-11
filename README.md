@@ -17,7 +17,7 @@ dependencies {
 
 
 ```java
-TTSUtil ttsUtil = new TTSUtil(getApplicationContext());
+TTSUtil ttsUtil = new TTSUtil(context);
   
 ttsUtil.setTextTOSpeech("你好啊");
 ```
