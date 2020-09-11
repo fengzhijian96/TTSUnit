@@ -1,0 +1,3 @@
+include ':app:ttslibrary'
+include ':app'
+rootProject.name = "TTSUnit"
