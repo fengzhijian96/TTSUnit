@@ -20,4 +20,6 @@ dependencies {
 TTSUtil ttsUtil = new TTSUtil(context);
   
 ttsUtil.setTextTOSpeech("你好啊");
+
+ttsUtil.closeTTS();
 ```
